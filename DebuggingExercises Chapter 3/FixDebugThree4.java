@@ -9,9 +9,9 @@ public class FixDebugThree4
       System.out.println("My tuition:");
       tuitionBill(myCredits, rate);
       System.out.println("Your tuition:");
-      tuitionBill(yourCredits, rate);
+      tuitionBill();
    }
-   public static void tuitionBill(int c, double r)
+   public static void tuitionBill(int c double r)
    {
       System.out.println("Total due " + (r*c));
    }
